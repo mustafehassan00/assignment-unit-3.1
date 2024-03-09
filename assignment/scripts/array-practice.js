@@ -23,7 +23,8 @@ console.log('Number of animals:', numberOfAnimals);
 // 2. TODO: Create a variable `numberOfFoods` and use the .length property
 //    to assign it the number value of how many items are inside `favoriteFoods`.
 //    Don't forget to console.log `numberOfFoods` to make sure your code worked!
-
+let numberOfFoods= favoriteFoods.length
+console.log('Number of foods;',numberOfFoods);
 
 // Accessing array items
 console.log('--- 3. Accessing items in an array ---');
