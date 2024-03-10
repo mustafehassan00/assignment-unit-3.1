@@ -78,6 +78,10 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 //      Add the `entree` to the beginning of your `favoriteFoods` array.
 
 
+let entree= 'orange chicken';
+favoriteFoods.unshift(entree);
+console.log('added entree to the beginning to favoriteFoods', favoriteFoods);
+
 // Example: Remove the last animal by using the Array.pop method.
 let removedAnimal = animalArray.pop();
 console.log('Removed the last animal', removedAnimal);
@@ -93,6 +97,11 @@ let colors = ['orange', 'yellow', 'green', 'teal'];
 //      array only contains three items now, AND to verify that `lastColor`
 //      contains the value "teal".)
 
+let removedLastcolors= colors.pop();
+console.log('Removed the last color', removedLastcolors);
+console.log('The colors are now', colors);
+let lastColor= 'teal';
+console.log('Added teal to last colors', lastColor);
 
 // Example: Remove the first animal using the Array.shift method.
 removedAnimal = animalArray.shift();
@@ -102,6 +111,12 @@ console.log('The animals are now', animalArray);
 // 4.d. TODO: Remove the first value from the `colors` array and store it
 //      inside a new variable called `firstColor`.
 //      To verify that your code worked, console.log `firstColor`!  
+let firstColor='orange';
+console.log('Added Orange to Firstcolor', firstColor);
+
+removedcolor=colors.shift();
+console.log('Removed the first color');
+console.log('The colors are now', colors);
 
 
 
@@ -112,7 +127,7 @@ let gems = ['Topaz', 'Citrine', 'Diamond', 'Emerald', 'Iolite', 'Tanzanite'];
 
 // 5.a (STRETCH) TODO: Replace the second gem with 'Tourmaline'.
 //      Remember to console.log the updated array.
-
+replace
 
 // 5.b (STRETCH) TODO: Sort your gems array in reverse alphabetical order.
 //     Please console.log the sorted array.
